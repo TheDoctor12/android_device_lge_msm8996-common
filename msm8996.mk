@@ -205,8 +205,8 @@ PRODUCT_PACKAGES += \
     ethertypes
 
 # IMS
-PRODUCT_PACKAGES += \
-    ims-ext-common
+#PRODUCT_PACKAGES += \
+#    ims-ext-common
 
 # IRQ
 PRODUCT_COPY_FILES += \
@@ -336,16 +336,16 @@ PRODUCT_PACKAGES += \
     libxml2
 
 # Treble
-PRODUCT_FULL_TREBLE_OVERRIDE := true
+#PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_PACKAGES += \
     vndk-sp \
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
+#PRODUCT_PACKAGES += \
+#    telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # USB
 PRODUCT_PACKAGES += \
